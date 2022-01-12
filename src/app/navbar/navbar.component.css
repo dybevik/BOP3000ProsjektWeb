@@ -1,0 +1,36 @@
+nav{
+    background-color: rgba(32, 32, 32, 0.5);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-item a{
+    color: white;
+}
+
+.navbar-start{
+    margin-left: 150px;
+}
+
+.navbar-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar-items{
+    background-color: rgba(32, 32, 32, 0.7);
+}
+
+.navbar-brand{
+    background-color: rgba(32, 32, 32, 0.7);
+}
+
+@media screen and (max-width: 1088px) {
+    .navbar-center{
+        display:block;
+        text-align: center;
+    }
+}

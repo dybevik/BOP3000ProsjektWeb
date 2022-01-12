@@ -1,0 +1,27 @@
+<section id="members">
+    <div class="bg-members">
+        <div class="overlay">
+            <div class="columns">
+                <div class="column" *ngFor="let member of members">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by5">
+                                <img [src]="member.imagePath" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">{{ member.name }}</p>
+                                </div>
+                            </div>
+                            <div class="content">
+                                {{ member.role }}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

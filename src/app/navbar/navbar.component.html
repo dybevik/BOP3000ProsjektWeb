@@ -1,0 +1,25 @@
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a role="button" #navBurger class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar-items" (click)="toggleNavbar()">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+    <div id="navbar-items" class="navbar-menu" #navMenu>
+        <div class="navbar-center">
+            <div class="navbar-item">
+                <a (click)="scrollDown('home')">Hjem</a>
+            </div>
+            <div class="navbar-item">
+                <a (click)="scrollDown('project')">Prosjekt</a>
+            </div>
+            <div class="navbar-item">
+                <a (click)="scrollDown('members')">Medlemmer</a>
+            </div>
+            <div class="navbar-item">
+                <a>Noe</a>
+            </div>
+        </div>
+    </div>
+</nav>

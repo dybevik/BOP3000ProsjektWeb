@@ -1,0 +1,11 @@
+.bg-members{
+    width: 100%;
+    height:100vh;
+    background:linear-gradient(
+        rgba(75, 3, 40, 0.85),
+        rgba(31, 31, 31, 0.95)
+    ),
+    url(https://images.pexels.com/photos/3165335/pexels-photo-3165335.jpeg?cs=srgb&dl=pexels-lucie-liz-3165335.jpg&fm=jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+.bg-home{
+    width: 100%;
+    height:100vh;
+    background:linear-gradient(
+        rgba(8, 27, 56, 0.75),
+        rgba(31, 31, 31, 0.85)
+    ),
+    url(https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?cs=srgb&dl=pexels-soumil-kumar-735911.jpg&fm=jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
