@@ -18,7 +18,10 @@
     "@angular/platform-browser": "~13.1.0",
     "@angular/platform-browser-dynamic": "~13.1.0",
     "@angular/router": "~13.1.0",
+    "@types/gsap": "^3.0.0",
     "bulma": "^0.9.3",
+    "bulma-timeline": "^3.0.4",
+    "gsap": "^3.9.1",
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

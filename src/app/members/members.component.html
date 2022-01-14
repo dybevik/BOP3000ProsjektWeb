@@ -1,22 +1,14 @@
-<section id="members">
+<!-- <section id="members">
     <div class="bg-members">
         <div class="overlay">
-            <div class="columns">
-                <div class="column" *ngFor="let member of members">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by5">
-                                <img [src]="member.imagePath" alt="Placeholder image">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
-                                    <p class="title is-4">{{ member.name }}</p>
-                                </div>
-                            </div>
-                            <div class="content">
-                                {{ member.role }}
+            <div class="container is-flex is-align-items-center">
+                <div class="columns is-justify-content-center">
+                    <div class="column is-2" *ngFor="let member of members">
+                        <div class="card">
+                            <img [src]="member.imagePath" alt="">
+                            <div class="card-content">
+                                <p>{{ member.name }}</p>
+                                <p>{{ member.role }}</p>
                             </div>
                         </div>
                     </div>
@@ -24,4 +16,51 @@
             </div>
         </div>
     </div>
+</section> -->
+
+<!-- <section id="members">
+    <div class="bg-members">
+        <div class="overlay">
+            <div class="container is-flex is-align-items-center">
+                <div class="columns is-justify-content-center">
+                    <div class="column is-2" *ngFor="let member of members; let i = index" (click)="flipCard()" [@cardFlip]="data.state">
+                        <div class="card">
+                            <div class="face back">
+                                <img [src]="member.imagePath" alt="">
+                            </div>
+                            <div class="face front">
+                                <p>{{ member.name }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<section id="members">
+    <div class="bg-members">
+        <div class="overlay">
+            <div class="container is-flex is-align-items-center">
+                <div class="columns is-justify-content-center ">
+                    <div class="column" *ngFor="let member of members">
+                        <div class="card-member">
+                              <div class="card-member-overlay"></div>
+                              <img class="card-member-image" [src]="member.imagePath">
+                              <div class="card-member-content card-member-fadein">
+                                <h3>{{ member.name }}</h3>
+                                <p>{{ member.role }}</p>
+                                <div class="card-member-footer">
+                                    <a><img src="../../assets/icons/GitHub-Mark-Light-64px.png" alt="" class="card-member-icon"></a>
+                                    <a><img src="../../assets/icons/LI-In-Bug.png" alt="" class="card-member-icon"></a>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+

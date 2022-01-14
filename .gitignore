@@ -4,6 +4,7 @@ ssl/private.pem
 ssl/privateKey.pem
 
 # compiled output
+/dist
 /tmp
 /out-tsc
 # Only exists if Bazel was run

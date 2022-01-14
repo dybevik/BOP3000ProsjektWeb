@@ -7,5 +7,15 @@
 }
 
 .box{
-    background-color: rgba(131, 84, 84, 0.8);
+    background-color: rgb(88, 82, 82);
+    color: rgb(189, 184, 184);
+}
+
+.title{
+    color: rgb(189, 184, 184);
+}
+
+figure{
+    margin: auto;
+    margin-bottom: 10px;
 }

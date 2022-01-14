@@ -28,9 +28,16 @@ nav{
     background-color: rgba(32, 32, 32, 0.7);
 }
 
-@media screen and (max-width: 1088px) {
+@media screen and (max-width: 1023px) {
     .navbar-center{
         display:block;
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .card-member {
+        width: 85%;
+        margin:auto;
+    }
+  }
