@@ -1,49 +1,8 @@
-<!-- <section id="members">
+<section id="members" #membersSect>
     <div class="bg-members">
         <div class="overlay">
             <div class="container is-flex is-align-items-center">
-                <div class="columns is-justify-content-center">
-                    <div class="column is-2" *ngFor="let member of members">
-                        <div class="card">
-                            <img [src]="member.imagePath" alt="">
-                            <div class="card-content">
-                                <p>{{ member.name }}</p>
-                                <p>{{ member.role }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<!-- <section id="members">
-    <div class="bg-members">
-        <div class="overlay">
-            <div class="container is-flex is-align-items-center">
-                <div class="columns is-justify-content-center">
-                    <div class="column is-2" *ngFor="let member of members; let i = index" (click)="flipCard()" [@cardFlip]="data.state">
-                        <div class="card">
-                            <div class="face back">
-                                <img [src]="member.imagePath" alt="">
-                            </div>
-                            <div class="face front">
-                                <p>{{ member.name }}</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section> -->
-
-<section id="members">
-    <div class="bg-members">
-        <div class="overlay">
-            <div class="container is-flex is-align-items-center">
-                <div class="columns is-justify-content-center ">
+                <div class="columns is-justify-content-center" #memberCard>
                     <div class="column" *ngFor="let member of members">
                         <div class="card-member">
                               <div class="card-member-overlay"></div>

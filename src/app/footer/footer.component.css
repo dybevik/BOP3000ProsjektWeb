@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(41, 37, 37);
+    color: rgb(233, 229, 229);
+}
+
+footer .content{
+    color: rgb(233, 229, 229);
+}
+
+footer .content a{
+    color: rgb(83, 138, 182);
+}
