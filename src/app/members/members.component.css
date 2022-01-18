@@ -33,7 +33,7 @@
 }
 
 .card-member-image{
-width: 100%;
+    width: 100%;
 }
 
 .card-member-content {
@@ -87,12 +87,38 @@ width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 100%;
-    width: 20%;
+    width: 50%;
 }
+
+.card-member-footer a{
+    
+}
+
+
 
 .card-member-icon{
     width:32px;
     height:32px;
+}
+
+@media only screen and (max-width: 893px) {
+    .card-member-content {
+        top: 40%;
+    }
+
+    .card-member-footer{
+        margin-top: 50%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .card-member-content {
+        top: 50%;
+    }
+
+    .card-member-footer{
+        margin-top: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,8 +1,8 @@
-<section id="members" #membersSect>
+<section id="members">
     <div class="bg-members">
         <div class="overlay">
             <div class="container is-flex is-align-items-center">
-                <div class="columns is-justify-content-center" #memberCard>
+                <div class="columns is-justify-content-center" data-aos="fade-right">
                     <div class="column" *ngFor="let member of members">
                         <div class="card-member">
                               <div class="card-member-overlay"></div>
@@ -10,12 +10,12 @@
                               <div class="card-member-content card-member-fadein">
                                 <h3>{{ member.name }}</h3>
                                 <p>{{ member.role }}</p>
-                                <div class="card-member-footer">
-                                    <a><img src="../../assets/icons/GitHub-Mark-Light-64px.png" alt="" class="card-member-icon"></a>
-                                    <a><img src="../../assets/icons/LI-In-Bug.png" alt="" class="card-member-icon"></a>
+                                <div class="card-member-footer has-text-centered">
+                                    <a class="mr-3"><img src="../../assets/icons/GitHub-Mark-Light-64px.png" alt="" class="card-member-icon"></a>
+                                    <a class="ml-3"><img src="../../assets/icons/LI-In-Bug.png" alt="" class="card-member-icon"></a>
                                 </div>
-                              </div>
-                          </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
