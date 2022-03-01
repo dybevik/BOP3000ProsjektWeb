@@ -13,12 +13,14 @@
 .card-member {
     position: relative;
     overflow: hidden;
+    width: 260px;
+    height: 380px;
 }
 
 .card-member .card-member-overlay {
     background: linear-gradient(0deg, rgba(51, 51, 51, 0.8) 0%, rgba(8, 15, 32, 0.9) 100%);
     position: absolute;
-    height: 99%;
+    height: 100%;
     width: 100%;
     left: 0;
     top: 0;
@@ -61,6 +63,10 @@
     opacity: 1;
 }
 
+img{
+    height: 100%
+}
+
 .card-member-content h3{
     color: #fff;
     font-weight: 500;
@@ -90,12 +96,6 @@
     width: 50%;
 }
 
-.card-member-footer a{
-    
-}
-
-
-
 .card-member-icon{
     width:32px;
     height:32px;
@@ -119,17 +119,10 @@
     .card-member-footer{
         margin-top: 100%;
     }
-}
 
-@media only screen and (max-width: 768px) {
     .bg-members{
         height: 100%;
         padding: 30px;
-    }
-
-    .card-member {
-        width: 85%;
-        margin:auto;
     }
 }
 

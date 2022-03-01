@@ -1,1 +1,3 @@
-export class AnimationsService{}
+export class AnimationsService{
+
+}

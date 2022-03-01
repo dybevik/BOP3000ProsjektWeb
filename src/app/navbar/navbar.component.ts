@@ -16,6 +16,7 @@ export class NavbarComponent implements OnInit {
   }
 
   toggleNavbar(){
+
     this.navBurger.nativeElement.classList.toggle('is-active');
     this.navMenu.nativeElement.classList.toggle('is-active');
   }
